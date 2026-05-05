@@ -31,6 +31,21 @@
             bindings = <&kp DELETE>;
             key-positions = <21 18>;
         };
+
+        LeaderKey {
+            bindings = <&kp F19>;
+            key-positions = <16 19>;
+        };
+
+        HomerowClick {
+            bindings = <&kp LS(LA(LC(LG(SPACE))))>;
+            key-positions = <15 20>;
+        };
+
+        SelectAll {
+            bindings = <&kp LG(A)>;
+            key-positions = <16 2>;
+        };
     };
 
     behaviors {
