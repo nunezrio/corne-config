@@ -15,6 +15,8 @@
         Return {
             bindings = <&kp RETURN>;
             key-positions = <21 20>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         Escape {
@@ -25,26 +27,50 @@
         Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 21>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
             key-positions = <21 18>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         LeaderKey {
             bindings = <&kp F19>;
             key-positions = <16 19>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         HomerowClick {
             bindings = <&kp LS(LA(LC(LG(SPACE))))>;
             key-positions = <15 20>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         SelectAll {
             bindings = <&kp LG(A)>;
             key-positions = <16 2>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
+
+        Raycast {
+            bindings = <&kp LA(SPACE)>;
+            key-positions = <17 18>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
+
+        HomerowScroll {
+            bindings = <&kp LA(LG(LC(J)))>;
+            key-positions = <15 21>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
     };
 
