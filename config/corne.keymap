@@ -107,6 +107,13 @@
             timeout-ms = <40>;
             require-prior-idle-ms = <75>;
         };
+
+        NextApp {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <16 14>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
     };
 
     behaviors {
