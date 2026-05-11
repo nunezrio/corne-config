@@ -100,6 +100,13 @@
             timeout-ms = <40>;
             require-prior-idle-ms = <75>;
         };
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <15 18>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
     };
 
     behaviors {
