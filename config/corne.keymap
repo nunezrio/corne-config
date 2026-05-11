@@ -86,6 +86,20 @@
             timeout-ms = <40>;
             require-prior-idle-ms = <75>;
         };
+
+        Cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <2 15>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <15 19>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
     };
 
     behaviors {
