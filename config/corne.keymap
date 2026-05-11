@@ -72,6 +72,20 @@
             timeout-ms = <40>;
             require-prior-idle-ms = <75>;
         };
+
+        LeftClick {
+            bindings = <&kp F16>;
+            key-positions = <19 8>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
+
+        RightClick {
+            bindings = <&kp F17>;
+            key-positions = <19 9>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
+        };
     };
 
     behaviors {
