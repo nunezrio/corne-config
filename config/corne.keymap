@@ -68,7 +68,7 @@
 
         HomerowScroll {
             bindings = <&kp LA(LG(LC(J)))>;
-            key-positions = <15 21>;
+            key-positions = <15 22>;
             timeout-ms = <40>;
             require-prior-idle-ms = <75>;
         };
